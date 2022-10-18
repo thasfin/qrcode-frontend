@@ -5,12 +5,22 @@
   "repository": "git@github.com:thasfin/qrcode-frontend.git",
   "author": "Jureg <filipe.araujo9@outlook.com>",
   "license": "MIT",
+  "dependencies": {
+    "axios": "^1.1.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
     "commitizen": "4.2.5",
     "cz-conventional-changelog": "^3.3.0",
-    "husky": "^8.0.1"
+    "husky": "^8.0.1",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0"
   },
   "config": {
     "commitizen": {
@@ -18,6 +28,9 @@
     }
   },
   "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
     "commit": "yarn git-cz"
   }
 }
