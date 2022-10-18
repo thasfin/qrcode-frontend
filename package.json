@@ -1,0 +1,8 @@
+{
+  "name": "newproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:thasfin/qrcode-frontend.git",
+  "author": "Jureg <filipe.araujo9@outlook.com>",
+  "license": "MIT"
+}
