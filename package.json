@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "git@github.com:thasfin/qrcode-frontend.git",
   "author": "Jureg <filipe.araujo9@outlook.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0"
+  }
 }
