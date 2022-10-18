@@ -1,10 +1,13 @@
 import './App.css';
 
 function App() {
+  const redirectDiscord = () => {
+    window.open('https://discord.gg/pmEVvTf4', '_blank');
+  };
   return (
     <section className="app">
       <h1>Bem Vindo</h1>
-      <div className="logo">
+      <div className="logo" onClick={redirectDiscord}>
         <img src="/logo.svg" alt="Logo Thasfin Community" />
       </div>
       <div className="div-send-url">
